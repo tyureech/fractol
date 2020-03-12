@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmahasim/fract'ol/fractol.h
+libft/libft.h
+/Users/mmahasim/fract'ol/libft/libft.h
+minilibx_macos/mlx.h
+/Users/mmahasim/fract'ol/minilibx_macos/mlx.h
+pthread.h
+-
+
+/Users/mmahasim/fract'ol/libft/libft.h
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+
+/Users/mmahasim/fract'ol/main.c
+stdio.h
+-
+fractol.h
+/Users/mmahasim/fract'ol/fractol.h
+math.h
+-
+
+/Users/mmahasim/fract'ol/minilibx_macos/mlx.h
+
