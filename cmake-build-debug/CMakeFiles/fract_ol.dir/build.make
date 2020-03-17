@@ -967,9 +967,35 @@ CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mmahasim/fract'ol/minilibx_macos/mlx_xpm.c" -o CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.s
 
+CMakeFiles/fract_ol.dir/draw.c.o: CMakeFiles/fract_ol.dir/flags.make
+CMakeFiles/fract_ol.dir/draw.c.o: ../draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fract_ol.dir/draw.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract_ol.dir/draw.c.o   -c "/Users/mmahasim/fract'ol/draw.c"
+
+CMakeFiles/fract_ol.dir/draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract_ol.dir/draw.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mmahasim/fract'ol/draw.c" > CMakeFiles/fract_ol.dir/draw.c.i
+
+CMakeFiles/fract_ol.dir/draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract_ol.dir/draw.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mmahasim/fract'ol/draw.c" -o CMakeFiles/fract_ol.dir/draw.c.s
+
+CMakeFiles/fract_ol.dir/ft_hook.c.o: CMakeFiles/fract_ol.dir/flags.make
+CMakeFiles/fract_ol.dir/ft_hook.c.o: ../ft_hook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fract_ol.dir/ft_hook.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract_ol.dir/ft_hook.c.o   -c "/Users/mmahasim/fract'ol/ft_hook.c"
+
+CMakeFiles/fract_ol.dir/ft_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fract_ol.dir/ft_hook.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/mmahasim/fract'ol/ft_hook.c" > CMakeFiles/fract_ol.dir/ft_hook.c.i
+
+CMakeFiles/fract_ol.dir/ft_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fract_ol.dir/ft_hook.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/mmahasim/fract'ol/ft_hook.c" -o CMakeFiles/fract_ol.dir/ft_hook.c.s
+
 CMakeFiles/fract_ol.dir/main.c.o: CMakeFiles/fract_ol.dir/flags.make
 CMakeFiles/fract_ol.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fract_ol.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fract_ol.dir/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fract_ol.dir/main.c.o   -c "/Users/mmahasim/fract'ol/main.c"
 
 CMakeFiles/fract_ol.dir/main.c.i: cmake_force
@@ -1052,6 +1078,8 @@ fract_ol_OBJECTS = \
 "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_new_window.m.o" \
 "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_shaders.c.o" \
 "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.o" \
+"CMakeFiles/fract_ol.dir/draw.c.o" \
+"CMakeFiles/fract_ol.dir/ft_hook.c.o" \
 "CMakeFiles/fract_ol.dir/main.c.o"
 
 # External object files for target fract_ol
@@ -1127,10 +1155,12 @@ fract_ol: CMakeFiles/fract_ol.dir/minilibx_macos/mlx_new_image.m.o
 fract_ol: CMakeFiles/fract_ol.dir/minilibx_macos/mlx_new_window.m.o
 fract_ol: CMakeFiles/fract_ol.dir/minilibx_macos/mlx_shaders.c.o
 fract_ol: CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.o
+fract_ol: CMakeFiles/fract_ol.dir/draw.c.o
+fract_ol: CMakeFiles/fract_ol.dir/ft_hook.c.o
 fract_ol: CMakeFiles/fract_ol.dir/main.c.o
 fract_ol: CMakeFiles/fract_ol.dir/build.make
 fract_ol: CMakeFiles/fract_ol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable fract_ol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable fract_ol"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fract_ol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -15,8 +15,9 @@
 #include "libft/libft.h"
 #include "minilibx_macos/mlx.h"
 #include <pthread.h>
-#define HEIGHT 500
-#define WIDTH 500
+#include <math.h>
+#define HEIGHT 800
+#define WIDTH 800
 
 
 
@@ -41,12 +42,23 @@ typedef struct	s_t34
 	t_m			factor;
 	t_m			c;
 	t_m			z;
+	t_m			k;
+	t_m			mouse;
 	double		key;
 	double		key2;
 	double		lr;
 	double		ub;
+	double		zoom;
 	int			start;
+	int			space;
 	int			and;
+	int			flag;
+	int			flag_color;
+	int			julia;
+	int			col;
+	double 		iteration_max;
+	int			color;
+	int			color2;
 }				t_34;
 
 //typedef struct s_max
@@ -55,11 +67,17 @@ typedef struct	s_t34
 //	double im;
 //}				max;
 
-int				ft_hook(int key, t_34 *t34);
-int				ft_test(t_34 *t34);
-int				ft_color(int iter, int max_iter);
-int				ft_test2(t_34 *t34);
+void			init_fractal(t_34 *t34);
+int				draw(t_34 *t34);
 t_m				init_complex(double re, double im);
-int				ft_paralel(t_34 *t34);
+int				Mandelbrot(t_34 *t34);
+int				julia(t_34 *t34);
+int				ft_hook(int key, t_34 *t34);
+int				ft_color(int iter, double itertation_max, t_34 *t34);
+int				ft_hook(int key, t_34 *t34);
+int				ft_mouse_hook(int key, int x, int y, t_34 *t34);
+int				Julia_hook(int x, int y, t_34 *t34);
+int				Zont(t_34 *t34);
+int				Drevniy(t_34 *t34);
 
 #endif

@@ -123,6 +123,60 @@ fract_ol/fast:
 	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/build
 .PHONY : fract_ol/fast
 
+draw.o: draw.c.o
+
+.PHONY : draw.o
+
+# target to build an object file
+draw.c.o:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/draw.c.o
+.PHONY : draw.c.o
+
+draw.i: draw.c.i
+
+.PHONY : draw.i
+
+# target to preprocess a source file
+draw.c.i:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/draw.c.i
+.PHONY : draw.c.i
+
+draw.s: draw.c.s
+
+.PHONY : draw.s
+
+# target to generate assembly for a file
+draw.c.s:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/draw.c.s
+.PHONY : draw.c.s
+
+ft_hook.o: ft_hook.c.o
+
+.PHONY : ft_hook.o
+
+# target to build an object file
+ft_hook.c.o:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/ft_hook.c.o
+.PHONY : ft_hook.c.o
+
+ft_hook.i: ft_hook.c.i
+
+.PHONY : ft_hook.i
+
+# target to preprocess a source file
+ft_hook.c.i:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/ft_hook.c.i
+.PHONY : ft_hook.c.i
+
+ft_hook.s: ft_hook.c.s
+
+.PHONY : ft_hook.s
+
+# target to generate assembly for a file
+ft_hook.c.s:
+	$(MAKE) -f CMakeFiles/fract_ol.dir/build.make CMakeFiles/fract_ol.dir/ft_hook.c.s
+.PHONY : ft_hook.c.s
+
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
 .PHONY : libft/ft_atoi.o
@@ -2049,6 +2103,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fract_ol"
+	@echo "... draw.o"
+	@echo "... draw.i"
+	@echo "... draw.s"
+	@echo "... ft_hook.o"
+	@echo "... ft_hook.i"
+	@echo "... ft_hook.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"

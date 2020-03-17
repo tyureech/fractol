@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(fract_ol)
+project(fract_ol C)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 include_directories(libft)
@@ -72,16 +72,6 @@ add_executable(fract_ol
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        minilibx_macos/man/man1/mlx.1
-        minilibx_macos/man/man1/mlx_loop.1
-        minilibx_macos/man/man1/mlx_new_image.1
-        minilibx_macos/man/man1/mlx_new_window.1
-        minilibx_macos/man/man1/mlx_pixel_put.1
-        minilibx_macos/man/man3/mlx.1
-        minilibx_macos/man/man3/mlx_loop.1
-        minilibx_macos/man/man3/mlx_new_image.1
-        minilibx_macos/man/man3/mlx_new_window.1
-        minilibx_macos/man/man3/mlx_pixel_put.1
         minilibx_macos/font.c
         minilibx_macos/mlx.h
         minilibx_macos/mlx_init_loop.m
@@ -90,10 +80,12 @@ add_executable(fract_ol
         minilibx_macos/mlx_new_image.m
         minilibx_macos/mlx_new_window.h
         minilibx_macos/mlx_new_window.m
-      # minilibx_macos/mlx_rgb.c
+      #  minilibx_macos/mlx_rgb.c
         minilibx_macos/mlx_shaders.c
         minilibx_macos/mlx_xpm.c
+        draw.c
         fractol.h
+        ft_hook.c
         main.c)
 
 target_link_libraries(fract_ol "libmlx.a")

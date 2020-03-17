@@ -19,7 +19,7 @@ OBJ = $(SRC:.c=.o)
 HEADERS = fractol.h
 all:
 	@$(MAKE) -C $(LIBFT_DIR)
-	@gcc -o $(NAME) $(SRC) $(LIBS) -lmlx -framework OpenGL -framework AppKit
+	@gcc -o $(NAME) $(SRC) $(LIBS) -O3 -lmlx -framework OpenGL -framework AppKit
 clean:
 	@$(MAKE) clean -C $(LIBFT_DIR)
 	@rm -f $(OBJ)

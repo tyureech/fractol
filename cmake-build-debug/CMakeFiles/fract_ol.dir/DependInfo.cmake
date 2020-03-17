@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/mmahasim/fract'ol/draw.c" "/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles/fract_ol.dir/draw.c.o"
+  "/Users/mmahasim/fract'ol/ft_hook.c" "/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles/fract_ol.dir/ft_hook.c.o"
   "/Users/mmahasim/fract'ol/libft/ft_atoi.c" "/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles/fract_ol.dir/libft/ft_atoi.c.o"
   "/Users/mmahasim/fract'ol/libft/ft_bzero.c" "/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles/fract_ol.dir/libft/ft_bzero.c.o"
   "/Users/mmahasim/fract'ol/libft/ft_count.c" "/Users/mmahasim/fract'ol/cmake-build-debug/CMakeFiles/fract_ol.dir/libft/ft_count.c.o"

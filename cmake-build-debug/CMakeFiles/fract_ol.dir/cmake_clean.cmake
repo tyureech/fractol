@@ -69,6 +69,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_new_window.m.o"
   "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_shaders.c.o"
   "CMakeFiles/fract_ol.dir/minilibx_macos/mlx_xpm.c.o"
+  "CMakeFiles/fract_ol.dir/draw.c.o"
+  "CMakeFiles/fract_ol.dir/ft_hook.c.o"
   "CMakeFiles/fract_ol.dir/main.c.o"
   "fract_ol.pdb"
   "fract_ol"

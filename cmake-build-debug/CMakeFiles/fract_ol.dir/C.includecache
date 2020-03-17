@@ -13,6 +13,14 @@ minilibx_macos/mlx.h
 /Users/mmahasim/fract'ol/minilibx_macos/mlx.h
 pthread.h
 -
+math.h
+-
+
+/Users/mmahasim/fract'ol/ft_hook.c
+fractol.h
+/Users/mmahasim/fract'ol/fractol.h
+stdio.h
+-
 
 /Users/mmahasim/fract'ol/libft/libft.h
 string.h
@@ -23,8 +31,6 @@ stdlib.h
 -
 
 /Users/mmahasim/fract'ol/main.c
-stdio.h
--
 fractol.h
 /Users/mmahasim/fract'ol/fractol.h
 math.h

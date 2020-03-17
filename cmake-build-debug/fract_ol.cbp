@@ -88,7 +88,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mmahasim/fract&apos;ol/draw.c">
+			<Option target="fract_ol"/>
+		</Unit>
 		<Unit filename="/Users/mmahasim/fract&apos;ol/fractol.h">
+			<Option target="fract_ol"/>
+		</Unit>
+		<Unit filename="/Users/mmahasim/fract&apos;ol/ft_hook.c">
 			<Option target="fract_ol"/>
 		</Unit>
 		<Unit filename="/Users/mmahasim/fract&apos;ol/libft/ft_atoi.c">
@@ -287,36 +293,6 @@
 			<Option target="fract_ol"/>
 		</Unit>
 		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/font.c">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man1/mlx.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man1/mlx_loop.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man1/mlx_new_image.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man1/mlx_new_window.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man1/mlx_pixel_put.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man3/mlx.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man3/mlx_loop.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man3/mlx_new_image.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man3/mlx_new_window.1">
-			<Option target="fract_ol"/>
-		</Unit>
-		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/man/man3/mlx_pixel_put.1">
 			<Option target="fract_ol"/>
 		</Unit>
 		<Unit filename="/Users/mmahasim/fract&apos;ol/minilibx_macos/mlx.h">
